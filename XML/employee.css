@@ -1,0 +1,49 @@
+employees {
+	display: block;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+	padding: 25px;
+	margin: 25px;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease;
+}
+
+employees:hover {
+	transform: scale(1.02);
+}
+
+employee {
+	display: block;
+	background: #ffffffcc;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+	width: 90%;
+	max-width: 650px;
+	transition: box-shadow 0.3s ease;
+}
+
+employee:hover {
+	box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+employee > id,
+employee > name,
+employee > position,
+employee > department,
+employee > salary {
+	display: block;
+	font-size: 18px;
+	color: #34495e;
+	margin: 8px 0;
+	font-weight: 600;
+}
+
+employee > name {
+	font-weight: 900;
+	color: #c0392b;
+	font-size: 22px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}

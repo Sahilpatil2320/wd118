@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+    <student>
+        <id>103</id>
+        <name>Yash K</name>
+        <age>20</age>
+        <department>Computer Science</department>
+        <email>YAshk@example.com</email>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Sanskar</name>
+        <age>20</age>
+        <department>Information Technology</department>
+        <email>SansK@example.com</email>
+    </student>
+</students>
